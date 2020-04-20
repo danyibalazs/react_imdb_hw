@@ -10,7 +10,9 @@ class FilmList extends Component {
 
     return (
       <div>
+        <ul>
         {filmNodes}
+        </ul>
       </div>
     )
   }

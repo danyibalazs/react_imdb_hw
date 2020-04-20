@@ -36,10 +36,12 @@ class FilmBox extends Component {
   
   render() {
     return (
-      <div>
+      <div id="film-box">
         <h1>Upcoming Film Releases for UK</h1>
+        <hr></hr>
         <FilmList films={this.state.films}></FilmList>
-        <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcomint releases >></button></a>
+        <hr></hr>
+        <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcoming releases >></button></a>
       </div>
     )
   }
