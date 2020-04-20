@@ -38,7 +38,8 @@ class FilmBox extends Component {
     return (
       <div>
         <h1>Upcoming Film Releases for UK</h1>
-        <FilmList films={this.props.films}></FilmList>
+        <FilmList films={this.state.films}></FilmList>
+        <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcomint releases >></button></a>
       </div>
     )
   }
